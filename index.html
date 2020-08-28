@@ -25,10 +25,26 @@
             </div>	
         </div>	
         <div class="buttons">	
-            <button>Load User Data</button>	
-            <button>Display User</button>	
+            <button id="load">Load User Data</button>	
+            <button id="display">Display User</button>	
         </div>	
-    </div>
+	 </div>
+
+	 <script id="quote-template" type="text/x-handlebars-template">
+		<h6>Favorite quote:</h6>
+		<p>{{quote}}</p>
+	 </script>
+
+	 <script id="content-template" type="text/x-handlebars-template">
+		<h6>About me:</h6>
+
+	 </script>
+	<img src="" alt="">
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js" integrity="sha512-zT3zHcFYbQwjHdKjCu6OMmETx8fJA9S7E6W7kBeFxultf75OPTYUJigEKX58qgyQMi1m1EgenfjMXlRZG8BXaw==" crossorigin="anonymous"></script>
+	 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	 <script src="APIManager.js"></script>
+	 <script src="Renderer.js"></script>
+	 <script src="main.js"></script>
 </body>
 
 </html>
