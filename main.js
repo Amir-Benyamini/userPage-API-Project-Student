@@ -1,4 +1,4 @@
-$("#load").on("click", function(){
+$("#load").on("click", function () {
 	apiManager.fetchQuote()
 	apiManager.fetchAbout()
 	apiManager.fetchUsers()
@@ -7,11 +7,11 @@ $("#load").on("click", function(){
 })
 
 
-$("#display").on("click", function(){
+$("#display").on("click", function () {
 
 	mainRender.renderQuote(apiManager.dataQ.quote)
 	mainRender.renderAbout(apiManager.dataA)
 	mainRender.renderUsers(apiManager.dataU.results)
 	mainRender.renderPoke(apiManager.dataP)
-	
+
 })
